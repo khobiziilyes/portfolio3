@@ -8,6 +8,27 @@ const config = {
   },
 };
 
+export const email = "khobizi.ilyes@gmail.com";
+
+export const navLinks = [
+  {
+    name: "About",
+    url: "/#about",
+  },
+  {
+    name: "Experience",
+    url: "/#jobs",
+  },
+  {
+    name: "Work",
+    url: "/#projects",
+  },
+  {
+    name: "Contact",
+    url: "/#contact",
+  },
+];
+
 export const socialMedia = [
   {
     name: "GitHub",
