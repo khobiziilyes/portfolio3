@@ -1,7 +1,4 @@
-import { Inter } from "next/font/google";
 import AppHead from "@/components/AppHead";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -12,7 +9,7 @@ export default function RootLayout({
     <html lang="en">
       <AppHead />
 
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,6 +1,10 @@
+"use client";
+
 import config from "@/config";
 import Head from "next/head";
 import { usePathname } from "next/navigation";
+
+// TODO: Not sure if overriding will work correctly if applied in a nested page.
 
 export default function AppHead({
   title,
